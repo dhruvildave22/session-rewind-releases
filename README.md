@@ -12,7 +12,6 @@ Installers for **Session Rewind Notch**, a small Mac app that shows your Claude 
 - A pill at the notch: a dot for your sessions (green = Claude is working, amber = waiting for you), prompts today and corrections today.
 - Hover for today's numbers, each session with its context fill, and rule ideas from corrections you repeat, with a copy button.
 - **Spend:** today's Claude Code spend (and the last 7 days), in the panel, the menu bar and on each session. It is Claude Code's own cost figure, not your bill on a subscription plan; `~` means part of it is estimated.
-- **Plan usage:** your **Session (5hr)** and **Weekly (7 day)** limits as bars with the percentage used and "Resets in…", like Claude's usage page. It is off by default (see Privacy for what turning it on changes).
 - **Switch the Claude Code account** without a terminal: panel, Claude Code account, Switch… (or the menu bar menu). You confirm, then sign in in your browser.
 - A menu bar icon with the same counts, and **Launch at login**, **Hide the notch pill** and **Quit**.
 - Works on Macs without a notch too (a small pill at the top centre, plus the menu bar icon).
@@ -20,8 +19,6 @@ Installers for **Session Rewind Notch**, a small Mac app that shows your Claude 
 ## Privacy
 
 The app only reads `~/.claude/projects` on your Mac. It sends none of your data anywhere.
-
-**Plan usage is opt-in.** The numbers come from Claude Code's status line, so turning it on (after a confirmation) changes **one** setting in Claude Code's `settings.json`: your status line command becomes a small script that saves only your plan usage and then runs your own status line as before. Your original is backed up, and turning it off puts it back. The numbers refresh while a Claude Code session is open.
 
 Its only network use is asking GitHub whether a newer release of the app exists (and downloading it when you update). You can switch that off in the menu bar menu (**Check for updates automatically**). The account section runs the `claude` command on your Mac; the sign-in itself happens in your browser, done by Claude Code.
 

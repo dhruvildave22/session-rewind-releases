@@ -5,7 +5,7 @@ Installers for **Session Rewind Notch**, a small Mac app that shows your Claude 
 **[Download the latest version](../../releases/latest)**
 
 - Apple Silicon Macs (M1 and later): the `arm64` file.
-- Intel Macs: the other `.dmg`.
+- Intel Macs: the `x64` file (in 0.1.0 it is the one without a suffix).
 
 ## What it does
 

@@ -11,6 +11,13 @@ Installers for **Session Rewind Notch**, a small Mac app that shows your Claude 
 
 - A pill at the notch: a dot for your sessions (green = Claude is working, amber = waiting for you), prompts today and corrections today.
 - Hover for today's numbers, each session with its context fill, and rule ideas from corrections you repeat, with a copy button.
+- **Move it anywhere.** Drag the top bar to put it on any screen as a small pill; drag it back near the notch (or double-click the bar) and it docks again. A smaller panel is the default, with a **Larger panel** option.
+- **Alerts** (all local, from your own Claude Code activity):
+  - **Claude needs you**: when a session that worked for a while stops and waits for you, the island glows and a notification appears. Silent unless you turn the sound on.
+  - **Daily budget**: set $20 to $500 a day; the spend tile fills as you go and you get a notice at 80% and 100%.
+  - **Context warnings**: a nudge when a session's context passes 80% ("consider /compact or a new session").
+- **At a glance:** a 7-day spend chart, how long each session has been working or waiting, and a click on a session opens its folder in VS Code.
+- **Keep it open:** a pin in the panel, or press **Control+Option+N** from anywhere to pin or unpin it.
 - **Spend:** today's Claude Code spend (and the last 7 days), in the panel, the menu bar and on each session. It is Claude Code's own cost figure, not your bill on a subscription plan; `~` means part of it is estimated.
 - **Switch the Claude Code account** without a terminal: panel, Claude Code account, Switch… (or the menu bar menu). You confirm, then sign in in your browser.
 - A menu bar icon with the same counts, and **Launch at login**, **Hide the notch pill** and **Quit**.
